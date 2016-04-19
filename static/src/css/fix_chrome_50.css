@@ -1,0 +1,24 @@
+.openerp .oe_leftbar > div > div > div {
+    min-height: 455px;
+}
+.openerp .oe_application > div > .oe_view_manager > .oe_view_manager_wrapper > div{
+    min-height: 532px;
+}
+
+.openerp .oe_application > div > .oe_view_manager > .oe_view_manager_wrapper > div{
+   display:table-cell;
+}
+
+.openerp .oe_leftbar > div > div > div {
+    display:table-cell;
+}
+
+.pos .subwindow .subwindow-container-fix {
+    min-height: 186px;
+}
+.pos .subwindow .subwindow-container-fix.screens{
+    min-height: 608px;
+}
+.pos .screen .content-cell .content-container {
+    min-height: 559px;
+}

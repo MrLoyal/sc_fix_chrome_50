@@ -1,0 +1,15 @@
+<openerp>
+    <data>
+        <template id="fix_chrome_50_assets_backend_css" name="fix_chrome_50_assets_backend_css" inherit_id="website.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/sc_fix_chrome_50/static/src/css/fix_chrome_50.css" id="fix_chrome_50-stylesheet"/>
+            </xpath>
+        </template>
+
+        <template id="fix_chrome_50_assets_backend_css_for_pos" name="fix_chrome_50_assets_backend_css_for_pos" inherit_id="point_of_sale.index">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/sc_fix_chrome_50/static/src/css/fix_chrome_50.css" id="fix_chrome_50-stylesheet"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
